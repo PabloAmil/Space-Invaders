@@ -1,0 +1,35 @@
+.grid {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./assets/photo-1628498188904-036f5e25e93e.jpg); 
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.invader {
+
+    background-image: url(./assets/alienship2.png);
+    background-size: cover;
+}
+
+.shooter {
+    background-image: url(./assets/ship.png);
+    background-size: cover; 
+}
+
+
+.laser {
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+
+.boom {
+    background-image: url(./assets/boom.png);
+    background-size: cover;
+}
